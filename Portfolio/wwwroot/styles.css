@@ -3,7 +3,10 @@ body {
     text-align: center;
     font-size: large;
     background-color: rgb(48, 197, 35);
-} /*Here I wanted to make sure everything in the body had it's own style. I wanted to use papyrus, but I stuck with Times for now. Set bg color to match the rest of the sections*/
+}
+/*Here I wanted to make sure everything in the body had it's own style. I wanted to use papyrus, but I stuck with Times for now. Set bg color to match the rest of the sections*/
+
+
 p
 {
     text-align: center;
@@ -29,6 +32,11 @@ footer
     /*I moved the footer to separate the styles*/
 
 }
+
+#navbar-brand
+{
+    text-align: center;
+}
 /*had to remove a setting i had set for li, table centered after removal*/
 #things/*used tags to set colors */
 {
@@ -50,6 +58,11 @@ footer
     font-size: 8;
 }
 /*This section is proving difficult to get text to align to the center. May add a class id to exp to set text-center*/
+#social-links
+{
+    color: white;
+    background-color: green;
+}
 
 .center
 {
@@ -66,6 +79,11 @@ a:hover
 a:visited
 {
     color: lightcoral;
+}
+
+a:link
+{
+    color: darkred;
 }
 /* Add your styles here */
 
