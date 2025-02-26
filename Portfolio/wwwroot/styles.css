@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    text-align: center;
+    
     font-size: large;
     background-color: rgb(48, 197, 35);
 }
@@ -50,6 +50,7 @@ footer
     background-color: rgb(48, 197, 35);
     color: black;
     text-shadow: yellowgreen;
+    text-align: center; /*I dont like how the bullet points are - not sure if this is a list or 'skills' formatting issue - or both?*/
 }
 
 #experience
