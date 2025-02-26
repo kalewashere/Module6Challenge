@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    background-color: darkred;
+    font-size: large;
+}
+p
+{
+    color: black;
+    font-size: 16;
+}
+
+header, main {
+    text-align: justify;
+    background-color: darkred;
+}
+footer
+{
+    background-color: darkred;
+    font-size: 6
+
+}
+.things
+{
+    background-color: rgb(48, 197, 35);
+    color: green;
+    text-shadow: yellowgreen;
+}
+.skills
+{
+    background-color: yellow;
+    color: aqua;
+    text-shadow: yellowgreen;
+}
+#experience
+{
+    text-align: justify;    
+    font-size: 8;
+}
+a:hover
+{
+    text-shadow: yellowgreen;
+    color: blueviolet;
+}
+/* Add your styles here */
+

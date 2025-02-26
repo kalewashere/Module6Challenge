@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "K8tVdt0O4k5GupCy9Trj6Yl9eyOxxg75N0WVHm6Mlbg=",
+  "Source": "Portfolio",
+  "BasePath": "_content/Portfolio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portfolio/wwwroot",
+      "Source": "Portfolio",
+      "ContentRoot": "/workspaces/Module6Challenge/Portfolio/wwwroot/",
+      "BasePath": "_content/Portfolio",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspaces/Module6Challenge/Portfolio/wwwroot/index.html",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/Module6Challenge/Portfolio/wwwroot/",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/workspaces/Module6Challenge/Portfolio/wwwroot/styles.css",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/Module6Challenge/Portfolio/wwwroot/",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}
