@@ -1,46 +1,66 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     text-align: center;
-    background-color: darkred;
     font-size: large;
-}
+    background-color: rgb(48, 197, 35);
+} /*Here I wanted to make sure everything in the body had it's own style. I wanted to use papyrus, but I stuck with Times for now. Set bg color to match the rest of the sections*/
 p
 {
+    text-align: center;
     color: black;
     font-size: 16;
+    /*This section, p, edits everything set with <p>*/
 }
 
 header, main {
-    text-align: justify;
-    background-color: darkred;
+    text-align: center;
+    background-color: rgb(48, 197, 35);
+    
+    /*Adjusts header and main, grouping them together sets them at the same time*/
 }
 footer
 {
-    background-color: darkred;
+    background-color: rgb(48, 197, 35);
     font-size: 6
+    /*I moved the footer to separate the styles*/
 
 }
-.things
+ul, li
+{
+    text-align: center;
+
+}
+#things/*used tags to set colors */
 {
     background-color: rgb(48, 197, 35);
-    color: green;
+    color: black;
     text-shadow: yellowgreen;
+    
 }
-.skills
+#skills
 {
-    background-color: yellow;
-    color: aqua;
+    background-color: rgb(48, 197, 35);
+    color: black;
     text-shadow: yellowgreen;
 }
+
 #experience
 {
-    text-align: justify;    
+    text-align: center;    
     font-size: 8;
 }
+/*This section is proving difficult to get text to align to the center. May add a class id to exp to set text-center*/
+
+
 a:hover
 {
     text-shadow: yellowgreen;
-    color: blueviolet;
+    color: red;
+}
+/*one of my favortie things to edit, links and actions the mouse takes*/
+a:visited
+{
+    color: lightcoral;
 }
 /* Add your styles here */
 
